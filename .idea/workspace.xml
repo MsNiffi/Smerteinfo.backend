@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffcb379a-11b8-4ce2-bb48-aa5900424b16" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +60,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "d24793499a8a3e212a24d0c924f9781c",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -99,7 +98,8 @@
       <option name="presentableId" value="Default" />
       <updated>1682736007954</updated>
       <workItem from="1682736008998" duration="841000" />
-      <workItem from="1683216343570" duration="3120000" />
+      <workItem from="1683216343570" duration="3353000" />
+      <workItem from="1683220102970" duration="529000" />
     </task>
     <servers />
   </component>
