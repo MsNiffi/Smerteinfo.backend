@@ -17,6 +17,5 @@ public class Contributer {
     private String jobTitle;
     private String linkToWebsite;
 
-    @ManyToMany(mappedBy = "authors")
-    private Set<Article> articleContributions;
+
 }

@@ -9,14 +9,11 @@ import java.util.Set;
 @Entity
 @Getter
 @Setter
-public class Article {
-@Id
-private int articleId;
-private String title;
-private String body;
-private LocalDate publishedOn;
 
-private String author;
-
+public class Topic {
+    @Id
+    private int topicId;
+    private String name;
+    private String description;
 
 }
