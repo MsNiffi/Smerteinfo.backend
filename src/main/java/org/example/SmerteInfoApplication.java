@@ -7,14 +7,9 @@ package org.example;
 @SpringBootApplication
 public class SmerteInfoApplication {
 
-    private final ArticleService articleService;
-
-
-    public SmerteInfoApplication (ArticleService articleService){
-        this.articleService = articleService;
-    }
-
     public static void main(String[] args) {
         SpringApplication.run(SmerteInfoApplication.class, args);
     }
+
 }
+
