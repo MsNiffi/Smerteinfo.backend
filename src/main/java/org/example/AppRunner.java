@@ -7,8 +7,7 @@ import org.springframework.boot.ApplicationRunner;
 
 
 public class AppRunner implements ApplicationRunner {
-    private ArticleService articleService;
-
+    private final ArticleService articleService;
 
     public AppRunner (ArticleService articleService){
         this.articleService = articleService;
@@ -16,7 +15,7 @@ public class AppRunner implements ApplicationRunner {
 
 
     @Override
-    public void run(ApplicationArguments args) throws Exception{
+    public void run(ApplicationArguments args){
         System.out.println(articleService.findAllByAuthor("Mr AA"));
     }
 }
